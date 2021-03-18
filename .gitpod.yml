@@ -1,5 +1,6 @@
 
-image: terostech/multi-simulator
+image:
+  file: .gitpod.Dockerfile
 vscode:
   extensions:
     - teros-technology.teroshdl@0.1.91
