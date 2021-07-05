@@ -15,7 +15,6 @@ async def run_test(dut):
     dut.reset = 0
     dut.a_in = 0
     dut.b_in = 0
-    dut.avg_out = 0
 
     await Timer(20*PERIOD, units='ns')
 
