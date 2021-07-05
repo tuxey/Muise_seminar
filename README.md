@@ -11,19 +11,20 @@ This repository aims to collect documents and projects for different seminars
 
 ## Requirements
 
-## TerosHDL
-
-[Beta version v0.1.91](https://github.com/TerosTechnology/vscode-terosHDL/releases/tag/v0.1.91)
-
 ### Windows
-
-- VSCode
-
-[Install TerosHDL with remote WSL](https://code.visualstudio.com/docs/remote/wsl)
-
-- WSL
+1. WSL
 
 [Install WSL Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
+2. VSCode
+
+[Install Vscode with remote WSL](https://code.visualstudio.com/docs/remote/wsl)
+
+## TerosHDL
+
+[Manually install Beta version v0.1.91](https://github.com/TerosTechnology/vscode-terosHDL/releases/tag/v0.1.91)
+
+
 
 ### Linux tools
 
