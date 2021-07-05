@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1625442825" />
+    <testcase classname="average_tb" file="/home/ismael/git/Muise_seminar/2021/tb/average_tb.py" lineno="9" name="run_test" ratio_time="78261.56767820353" sim_time_ns="50200.000001" time="0.6414387226104736" />
+  </testsuite>
+</testsuites>
