@@ -24,18 +24,7 @@ RUN sudo rm -rf /var/lib/apt/lists/*
 RUN brew install icarus-verilog
 
 ## Install Verilator
-#ENV VERILATOR_BRANCH=stable
-ENV VERILATOR_BRANCH=v4.106
-
-RUN git clone https://github.com/verilator/verilator.git --branch ${VERILATOR_BRANCH} verilator \
-    && unset VERILATOR_ROOT \
-    && cd verilator \
-    && autoconf \
-    && ./configure \
-    && make --silent \
-    && sudo make --silent install \
-    && cd .. \
-    && rm -rf verilator
+RUN sudo apt-get install -y verilator
 
 ## Install GHDL
 ENV GHDL_BRANCH=v1.0.0
