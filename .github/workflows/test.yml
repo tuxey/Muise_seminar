@@ -13,7 +13,7 @@ jobs:
       - name: Test_vhdl
         run: |
           cd 2021/tb
-          make
+          make TOPLEVEL_LANG=vhdl SIM=ghdl
       - name: Test_verilog
         run: |
           cd 2021/tb

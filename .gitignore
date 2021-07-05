@@ -15,5 +15,7 @@ tmp
 *.project
 *.pyc
 *.s
+*.xml
+*.vcd
 out.xml
 modelsim.do
