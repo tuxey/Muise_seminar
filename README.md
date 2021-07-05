@@ -16,7 +16,11 @@ This repository aims to collect documents and projects for different seminars
 
 [Install WSL Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
-2. VSCode
+2. Ubuntu
+
+Install ubuntu from app store
+
+3. VSCode
 
 [Install Vscode with remote WSL](https://code.visualstudio.com/docs/remote/wsl)
 
