@@ -23,9 +23,6 @@ RUN sudo rm -rf /var/lib/apt/lists/*
 ## Install Icarus Verilog
 RUN brew install icarus-verilog
 
-## Install Verilator
-RUN sudo apt-get install -y verilator
-
 ## Install GHDL
 ENV GHDL_BRANCH=v1.0.0
 RUN git clone https://github.com/ghdl/ghdl.git --depth=1 --branch ${GHDL_BRANCH} ghdl \
@@ -35,5 +32,11 @@ RUN git clone https://github.com/ghdl/ghdl.git --depth=1 --branch ${GHDL_BRANCH}
     && sudo make --silent install \
     && cd .. \
     && rm -rf ghdl
+
+## Install cocotb
+RUN pip3 install cocotb
+
+## Install vunit
+RUN pip3 install vunit_hdl
 
 
