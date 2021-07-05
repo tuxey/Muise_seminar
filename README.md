@@ -44,3 +44,11 @@ sudo pip3 install vunit_hdl
 sudo pip3 install cocotb
 ```
 
+### Run test
+
+```
+cd 2021/tb
+make 
+make TOPLEVEL_LANG=verilog SIM=icarus
+```
+

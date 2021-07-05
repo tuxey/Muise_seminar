@@ -10,7 +10,11 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v1
-      - name: Test
+      - name: Test_vhdl
         run: |
           cd 2021/tb
           make
+      - name: Test_verilog
+        run: |
+          cd 2021/tb
+          make TOPLEVEL_LANG=verilog SIM=icarus
