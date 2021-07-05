@@ -40,8 +40,7 @@ git clone https://github.com/ghdl/ghdl.git --depth=1 --branch v1.0.0 ghdl \
     && cd .. \
     && rm -rf ghdl
 sudo apt install python3-pip
-sudo pip3 install vunit_hdl
-sudo pip3 install cocotb
+sudo pip3 install teroshdl
 ```
 
 ### Run test
