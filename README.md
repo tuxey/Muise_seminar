@@ -1,5 +1,5 @@
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/smgl9/Muise_seminar)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/tuxey/Muise_seminar)
 ![Tests](https://github.com/smgl9/Muise_seminar/workflows/Test_cocotb/badge.svg?event=push)
 
 
