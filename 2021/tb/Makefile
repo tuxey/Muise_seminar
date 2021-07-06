@@ -2,7 +2,12 @@
 
 TOPLEVEL_LANG ?= vhdl
 SIM=ghdl
+
+ifeq ($(SIM),ghdl)
 SIM_ARGS=--vcd=func.vcd
+else
+SIM_ARGS=
+endif
 
 PWD=$(shell pwd)
 
